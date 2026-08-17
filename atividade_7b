@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+	   inteiro numero
+        inteiro a = 0
+        inteiro b = 1
+        inteiro proximo_termo
+
+        escreva("digite um numero: ")
+        leia(numero)
+
+        para (inteiro i = 1; i <= numero; i++)
+        {
+            escreva(a, " ")
+
+            proximo_termo = a + b
+            a = b
+            b = proximo_termo
+	}
+	}
+}
