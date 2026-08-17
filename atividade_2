@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+
+        real paisA = 80000.00
+        real paisB = 200000.00
+        real taxa_de_crescimentoA = 0.03
+        real taxa_de_crescimentoB = 0.015
+        inteiro anos = 0
+
+        enquanto (paisA < paisB)
+        {
+            paisA = paisA + (paisA * taxa_de_crescimentoA)
+            paisB = paisB + (paisB * taxa_de_crescimentoB)
+
+            anos = anos + 1
+        }
+
+        escreva("Serão necessários ", anos, " anos.")
+    }
+}
