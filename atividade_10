@@ -1,0 +1,50 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		 inteiro n, numero, menor, maior, soma, i
+
+        escreva("Digite a quantidade de números: ")
+        leia(n)
+
+        escreva("digite o 1 número: ")
+        leia(numero)
+
+        enquanto(numero < 0 ou numero > 1000)
+        {
+            leia(numero)
+        }
+
+        menor = numero
+        maior = numero
+        soma = numero
+
+        para(i = 2; i <= n; i++)
+        {
+            escreva("digite o ", i, " número : ")
+            leia(numero)
+
+        enquanto(numero < 0 ou numero > 1000)
+            {
+                leia(numero)
+            }
+
+            soma = soma + numero
+
+            se (numero < menor)
+            {
+                menor= numero
+                }
+
+            se (numero > maior)
+            {
+                maior = numero
+            }
+        }
+
+        escreva("O menor valor é: ", menor, "\n")
+        escreva("O maior valor é: ", maior, "\n")
+        escreva("soma: ", soma)
+	}
+}
