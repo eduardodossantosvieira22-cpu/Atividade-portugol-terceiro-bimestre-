@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2, n3, n4, n5
+
+		escreva("Informe 5 numeros: \n")
+		leia(n1)
+		leia(n2)
+		leia(n3)
+		leia(n4)
+		leia(n5)
+
+		escreva("A soma dos numeros é:", n1 + n2 + n3 + n4 + n5, "\n")
+		escreva("E a media dos numeros é: ", (n1 + n2 + n3 + n4 + n5) / 5)
+		
+	}
+}
